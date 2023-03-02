@@ -9,6 +9,38 @@
 </head>
 <body>
    <h1>Survey Page 1</h1> 
+<form>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <div>
+        <label for="fname"> First Name:
+            <input id="fname" type="text" autofocus>
+        </label>
+         </div>
+        <div>
+        <label for="lname"> Last Name:
+            <input id="lname" type="text" tabindex="1">
+        </label>
+    </div>
+    <div>
+        <label for="email"> Email:
+            <input id="email" type="email" tabindex="2">
+        </label>
+    </div>
+    </fieldset>
+
+<label for="cars">Choose a car:
+
+<select name="autos" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+</label>
+
+</form>
+
 
     <button onclick="window.location.href='./survey-p2.html';">
     Next page
