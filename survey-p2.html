@@ -10,18 +10,53 @@
 <body>
    <h1>Survey Page 2</h1> 
 
-   <div>
-    <label for="cars">Choose a car:
+
+<div>
+          <label for="org"> 1. Select activities you are involved in:
+            <input type="checkbox" id="org" name="activities" value ="org"> Student Organization
+          </label>    
+      
+          <label for="job">
+            <input type="checkbox" id="job" name="activities" value="job"> On campus job
+          </label>
+      
+          <label for="offjob">
+            <input type="checkbox" id="offjob" name="activities" value="offjob"> Off campus job
+          </label>
+
+          <label for="fsl">
+            <input type="checkbox" id="fsl" name="activities" value="fsl"> FSL
+          </label>
+
+          <label for="volunteer">
+            <input type="checkbox" id="volunteer" name="activities" value="volunteer"> Volunteering
+          </label>
+</div>
+&nbsp
+<div>
+    <label for="sleep">2. Approximately how many hours of sleep do you get each night?
     
-    <select name="autos" id="cars">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
+    <select name="sleep" id="sleep">
+      <option value="eight">8+ hours</option>
+      <option value="five">5-7 hours</option>
+      <option value="three">3-5 hours</option>
+      <option value="less-three">less than 3 hours</option>
     </select>
     </label>
     </div>
-
+&nbsp
+<div>
+    <label for="exercise">3. Approximately how many days per week do you get 30+ minutes of exercise?
+    
+    <select name="exercise" id="exercise">
+      <option value="seven">7 days</option>
+      <option value="five">5-6 days</option>
+      <option value="two">2-4 days</option>
+      <option value="one">1 day or less</option>
+    </select>
+    </label>
+    </div>
+&nbsp
     <button onclick="window.location.href='./thank-you.html';">
     Submit survey
     </button>

@@ -27,7 +27,7 @@ textarea {
 }
 
 button {
-    background-color: #4CAF50; /* set background color */
+    background-color: darkgreen; /* set background color */
     border: none; /* remove border */
     color: white; /* set text color */
     padding: 12px 24px; /* set padding */
@@ -40,6 +40,6 @@ button {
   }
   
   button:hover {
-    background-color: #3e8e41; /* set hover background color */
+    background-color: #3e8e41; 
   }
   
