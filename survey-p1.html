@@ -14,30 +14,81 @@
         <legend>Contact Information</legend>
         <div>
         <label for="fname"> First Name:
-            <input id="fname" type="text" autofocus>
+            <input id="fname" type="text" autofocus >
         </label>
          </div>
         <div>
         <label for="lname"> Last Name:
-            <input id="lname" type="text" tabindex="1">
+            <input id="lname" type="text" >
         </label>
     </div>
     <div>
         <label for="email"> Email:
-            <input id="email" type="email" tabindex="2">
+            <input id="email" type="email" >
+        </label>
+    </div>
+    <div>
+        <label for="phone"> Phone number:
+            <input id="phone" type="tel" placeholder="123-456-7890" >
         </label>
     </div>
     </fieldset>
 
-<label for="cars">Choose a car:
-
-<select name="autos" id="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select>
+<fieldset><legend>Identification Information</legend>
+<label for="female"> How do you identify?
+    <input type="radio" id="female" name="gender" value="female"> Female 
 </label>
+
+<label for="male">
+    <input type="radio" id="male" name="gender" value="male"> Male
+</label>
+
+<label for="non-binary">
+<input type="radio" id="non-binary" name="gender" value="non-binary">Non-binary
+</label>  
+
+<label for="no-response">
+    <input type="radio" id="no-response" name="gender" value="prefer-not-to-say">Prefer not to say
+    </label>   
+
+<div></div>
+    <label for="first-year"> What year of your undergraduate education are you in?
+        <input type="radio" id="first-year" name="year" value="first-year"> First Year 
+    </label>
+    
+    <label for="second-year"> 
+        <input type="radio" id="second-year" name="year" value="second-year"> Second Year 
+    </label>
+    
+    <label for="third-year"> 
+        <input type="radio" id="third-year" name="year" value="third-year"> Third Year 
+    </label> 
+
+    <label for="fourth-year"> 
+        <input type="radio" id="fourth-year" name="year" value="fourth-year"> Fourth Year 
+    </label>
+
+    <label for="other"> 
+        <input type="radio" id="other" name="year" value="other"> Other 
+    </label>
+
+
+</fieldset>
+
+<fieldset>
+    <legend> Choose your favorite activities </legend>
+      <label for="running">
+        <input type="checkbox" id="running" name="activities" value ="running"> Running
+      </label>    
+  
+      <label for="biking">
+        <input type="checkbox" id="biking" name="activities" value="biking"> Biking
+      </label>
+  
+      <label for="reading">
+        <input type="checkbox" id="reading" name="activities" value="reading"> Reading
+      </label>
+  </fieldset> 
 
 </form>
 
