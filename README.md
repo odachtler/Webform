@@ -1,4 +1,4 @@
-# Olivia Dachtler's Webform 🏃‍♀️
+# Student Lifestyle Webform 🏃‍♀️
 This project used elements to create a static webform that implemented two pages and multiple types of questions.
 
 # Purpose
