@@ -20,3 +20,5 @@ Finally, the amount of items the user had to fill out was kept to the bare minim
   - alt image text
   - colors
   - questions asked
+
+![image](https://user-images.githubusercontent.com/71952168/236264324-fcde5c65-098a-4f1b-af3f-5022ac12df9f.png)
