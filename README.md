@@ -1,7 +1,8 @@
 # Olivia Dachtler's Webform
 This project used elements to create a static webform that implemented two pages and multiple types of questions.
 
----
+# Purpose
+
 This webform conformed to best practices in three main ways: alt image text, colors, and amount of questions asked. These three elements combine to make the webform accessible and increase the likelihood that viewers will fill out the entirety of the webform.
 
 ---
