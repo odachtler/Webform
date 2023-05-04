@@ -15,7 +15,7 @@ The colors chosen on the webform also allow people to see the text easily. When 
 Finally, the amount of items the user had to fill out was kept to the bare minimum to ensure people wouldn't get annoyed with the amount they had to type. Each page has a maximum of 7 questions to fill out and most of them are easy, with given options rather than typing. 
 
 ---
-Summary: 
+## Summary: 
 - This program was made accessible with: 
   - alt image text
   - colors
